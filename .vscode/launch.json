@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "firefox",
+            "name": "Launch Barista Defense",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html",
+            "reAttach": true,
+            "pathMappings": [
+                {
+                    "url": "http://localhost:8080/",
+                    "path": "${workspaceFolder}"
+                }
+            ],
+            "port": 6000
+        }
+    ]
+}
